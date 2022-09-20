@@ -11,7 +11,7 @@
 const float pi = 3.1415;
 
 using namespace std;
-int main()
+int main() 
 {
     int unsigned entero = 2147483647;
     float flotante = 31416e-4;
