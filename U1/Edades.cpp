@@ -12,26 +12,18 @@ int main()
         {
             cout<<"Primera edad";
         }
-        else
-        {
-            if (edad<61)
+        else if (edad<61)
             {
                 cout<<"Segunda edad";    
             }
-            else
+        else if (edad<91)
             {
-                if (edad<91)
-                {
-                    cout<<"Tercera edad";
-                }
-                else
-                {
-                    cout<<"Horas extras :3";
-                }
+                cout<<"Tercera edad";
             }
-            
-        }
-        
+        else
+             {
+                cout<<"Horas extras :3";
+            }
     }
     else
     {
