@@ -21,7 +21,7 @@ int main()
                 cout<<"Tercera edad";
             }
         else
-             {
+            {
                 cout<<"Horas extras :3";
             }
     }
