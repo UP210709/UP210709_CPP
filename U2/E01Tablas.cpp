@@ -26,6 +26,5 @@ int main(){
         cout<<n<<" * "<<i<<" = "<<n*i<<endl;
         i++;
     } while (i<=10);
-    
     return 0;
 }
