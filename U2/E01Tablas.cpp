@@ -8,7 +8,7 @@ int main(){
     {
         cout<<n<<" * "<<i<<" = "<<n*i<<endl;
     }
-    cout<<"\nTabla de multiplicar de manera decreciente \n";
+    cout<<"\nTabla de multiplicar con for de manera decreciente \n";
     for (i = 10; i > 0; i--)
     {
         cout<<n<<" * "<<i<<" = "<<n*i<<endl;
@@ -19,6 +19,12 @@ int main(){
         cout<<n<<" * "<<i<<" = "<<n*i<<endl;
         i++;
     }
+    cout<<"\nTabla de multiplicar hecha con while de manera descendente\n";
+    i=10;
+    while(i>=1){
+        cout<<n<<" * "<<i<<" = "<<n*i<<endl;
+        i--;
+    }
     cout<<"\nTabla de multiplicar hecha con do while \n";
     i=1;
     do
@@ -26,5 +32,12 @@ int main(){
         cout<<n<<" * "<<i<<" = "<<n*i<<endl;
         i++;
     } while (i<=10);
+    cout<<"\nTabla de multiplicar hecha con do while de manera descendente \n";
+    i=10;
+    do
+    {
+        cout<<n<<" * "<<i<<" = "<<n*i<<endl;
+        i--;
+    } while (i>=1);
     return 0;
 }
