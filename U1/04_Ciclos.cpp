@@ -21,6 +21,6 @@ int main()
     suma=sumaPar+SumarIm;
     printf("La suma de pares es %d \n",sumaPar);
     printf("La suma de impares es %d \n",SumarIm);
-    printf("La suma total es de %d",suma);
+    printf("La suma total es de %d \n",suma);
     return 0;
 }

@@ -1,4 +1,8 @@
 # Codigo de los programas dentro de esta carpeta  
+![Raphtalia](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Raphtalia.jpg) 
+
+---
+---
 **Tramos**  
 ````
 #include <iostream>
@@ -26,6 +30,9 @@ int main(){
     cout<<"El impuesto correspondiente es de "<<impuesto;
 }
 ````
+![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Si.jpg)  
+
+---
 **Puntuación**  
 ````
 #include <iostream>
@@ -35,24 +42,28 @@ int main(){
     cout<<"Evaluacion del empleado en base a su puntuacion \n",
     cout<<"Ingresa tu puntuacion: ";
     cin >> pun;
-    if (pun==0.0 || pun==0.4 || pun>=0.6)  {
+    pun=pun*10;
+    if (pun==0 || pun==4 || pun>=6)  {
         if (pun==0.0){
-            cout<<"Tu nivel es inaceptable y tu puntuacion final es de :"<<pun<<endl;
+            cout<<"Tu nivel es inaceptable y tu puntuacion final es de :"<<pun/10<<endl;
         }
         else if(pun==0.4){
-            cout<<"Tu nivel es aceptable y tu puntuacion final es de :"<<pun<<endl;
+            cout<<"Tu nivel es aceptable y tu puntuacion final es de :"<<pun/10<<endl;
         }
         else if(pun>=0.6){
-            cout<<"Tu nivel es meritorio y tu puntuacion final es de :"<<pun<<endl;
+            cout<<"Tu nivel es meritorio y tu puntuacion final es de :"<<pun/10<<endl;
         }
-        cout<<"El bono que recibiras sera de $"<<2400*pun;
+        cout<<"El bono que recibiras sera de $"<<2400*(pun/10);
     } 
     else{
         cout<<"Puntuacion no valida :3";
     }
     return 0;
 }
-````  
+````
+![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Si.jpg)    
+
+---
 **Juegos**  
 ````
 #include <iostream>
@@ -74,6 +85,9 @@ int main (){
     return 0;
 }
 ````  
+![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Si.jpg)  
+
+---
 **Pizzeria**  
 ````
 #include <iostream>
@@ -123,7 +137,10 @@ int main(){
     }
     return 0;
 }
-````  
+````
+![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Si.jpg)   
+
+---
 **Temperaturas**  
 ````
 #include <iostream>
@@ -154,7 +171,10 @@ int main(){
     return 0;
 
 }
-````  
+```` 
+![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Si.jpg)  
+
+---
 **Precios**  
 ````
 #include <iostream>
@@ -177,7 +197,10 @@ int main(){
     cout<<"El total de la compra es de $"<<total;
     return 0;
 }
-````  
+````
+![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Si.jpg)  
+
+---
 **BinarioADecimal**  
 ````
 #include <iostream>
@@ -206,4 +229,4 @@ int main(){
     return 0; 
 }
 ````  
-![Raphtalia](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Raphtalia.jpg) 
+![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Si.jpg)  

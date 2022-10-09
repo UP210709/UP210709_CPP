@@ -1,4 +1,8 @@
-# Codigo de los programas dentro de esta carpeta
+# Codigo de los programas dentro de esta carpeta  
+![Si](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Si.jpg)  
+
+---
+---
 **Hola mundo**  
 ````
 #include <iostream>
@@ -9,6 +13,9 @@ int main(){
     return 0;
 }
 ````  
+![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Si.jpg)  
+
+---
 **ParImpar**
 ````
 #include <iostream>
@@ -26,7 +33,10 @@ int main(){
     }
     return 0;
 }
-````  
+````
+![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Si.jpg)   
+
+---
 **TiposDatos**
 ````
 #include <iostream>
@@ -56,6 +66,9 @@ int main()
     return 0;
 }
 ````  
+![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Si.jpg) 
+
+---
 **Ciclos**
 ````
 #include <iostream>
@@ -85,6 +98,9 @@ int main()
     return 0;
 }
 ````  
+![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Si.jpg)  
+
+---
 **Edades**
 ````
 #include <iostream>
@@ -121,4 +137,4 @@ int main()
     return 0;
 }
 ````  
-![Si](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Si.jpg) 
+![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Si.jpg)  
