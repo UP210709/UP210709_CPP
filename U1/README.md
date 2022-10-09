@@ -120,4 +120,5 @@ int main()
     }
     return 0;
 }
-````
+````  
+![Si](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Si.jpg) 

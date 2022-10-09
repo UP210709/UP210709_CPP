@@ -32,4 +32,5 @@
 
 ___
 ---
-![Kurisu](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Kurisu.jpg) 
+![Kurisu](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Kurisu.jpg)   
+[Canción porque si :3](https://www.youtube.com/watch?v=ZJo5kRNlxAM)
