@@ -13,7 +13,7 @@ int main(){
     return 0;
 }
 ````  
-![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Si.jpg)  
+![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Ejercicio%201%20U1.png)  
 
 ---
 **ParImpar**
@@ -34,7 +34,7 @@ int main(){
     return 0;
 }
 ````
-![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Si.jpg)   
+![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Ejercicio%202%20U1.png)   
 
 ---
 **TiposDatos**
@@ -66,7 +66,7 @@ int main()
     return 0;
 }
 ````  
-![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Si.jpg) 
+![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Ejercicio%203%20U1.png) 
 
 ---
 **Ciclos**
@@ -98,7 +98,7 @@ int main()
     return 0;
 }
 ````  
-![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Si.jpg)  
+![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Ejercicio%204%20U1.png)  
 
 ---
 **Edades**
@@ -137,4 +137,4 @@ int main()
     return 0;
 }
 ````  
-![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Si.jpg)  
+![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Ejercicio%205%20U1.png)  

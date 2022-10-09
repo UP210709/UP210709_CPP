@@ -30,7 +30,7 @@ int main(){
     cout<<"El impuesto correspondiente es de "<<impuesto;
 }
 ````
-![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Si.jpg)  
+![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Ejercicio%201%20U2.png)  
 
 ---
 **Puntuación**  
@@ -61,7 +61,7 @@ int main(){
     return 0;
 }
 ````
-![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Si.jpg)    
+![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Ejercicio%202%20U2.png)    
 
 ---
 **Juegos**  
@@ -85,7 +85,7 @@ int main (){
     return 0;
 }
 ````  
-![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Si.jpg)  
+![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Ejercicio%203%20U2.png)  
 
 ---
 **Pizzeria**  
@@ -138,7 +138,7 @@ int main(){
     return 0;
 }
 ````
-![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Si.jpg)   
+![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Ejercicio%204%20U2.png)   
 
 ---
 **Temperaturas**  
@@ -172,7 +172,7 @@ int main(){
 
 }
 ```` 
-![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Si.jpg)  
+![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Ejercicio%205%20U2.png)  
 
 ---
 **Precios**  
@@ -198,7 +198,7 @@ int main(){
     return 0;
 }
 ````
-![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Si.jpg)  
+![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Ejercicio%206%20U2.png)  
 
 ---
 **BinarioADecimal**  
@@ -229,4 +229,4 @@ int main(){
     return 0; 
 }
 ````  
-![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Si.jpg)  
+![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Ejercicio%207%20U2.png)  
