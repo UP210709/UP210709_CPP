@@ -33,7 +33,6 @@ double euler(){
 }
 
 int main(){
-    int x;
     cout<<"Funcion factorial, permutacion y combinacion"<<endl;
     cout<<"Factorial: "<<factorial(0)<<endl;
     cout<<"Permutacion: "<<permutacion(5,2)<<endl;
