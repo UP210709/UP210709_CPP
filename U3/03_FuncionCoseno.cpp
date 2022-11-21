@@ -39,6 +39,6 @@ int main(){
         Er=abs(x1-c);
         i++;
     }
-    cout<<c;
+    cout<<"El coseno de "<<g<<" grados es: "<<c;
     return 0;
 }
