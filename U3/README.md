@@ -1,5 +1,5 @@
 # Codigo de los programas dentro de esta carpeta  
-![MadeInAbyss](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Raphtalia.jpg) 
+![MadeInAbyss](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/made.jpg) 
 
 ---
 ---
@@ -39,7 +39,7 @@ int main(){
     return 0;
 }
 ````
-![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Ejercicio%201%20U2.png)  
+![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Ejercicio%201%20U3.png)  
 
 ---
 **Año Bisiesto**  
@@ -65,7 +65,7 @@ if(Bisiesto(ano)){
 return 0;
 }
 ````
-![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Ejercicio%202%20U2.png)    
+![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Ejercicio%202%20U3.png)    
 
 ---
 **Coseno**  
@@ -115,148 +115,197 @@ int main(){
     return 0;
 }
 ````  
-![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Ejercicio%203%20U2.png)  
+![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Ejercicio%203%20U3.png)  
 
 ---
-**Pizzeria**  
+**Desviación Estandar**  
 ````
 #include <iostream>
-using namespace std;
-int main(){
-    int pizza;
-    int ingrediente;
-    cout<<"Seleccion de ingredientes para la pizza \n";
-    cout<<"De que tipo sera tu pizza? \n 1:Vegetariana \t 2:No vegetariana \n";
-    cin>>pizza;
-    switch (pizza)
-    {
-    case 1 :
-        cout<<"Elige un ingrediente de los siguientes \n";
-        cout<<"1:Pimiento \t 2:Tofu \n";
-        cin>>ingrediente;
-        if (ingrediente==1){
-            cout<<"Los ingredientes que tiene tu pizza vegetariana son: mozzarela, tomate y pimiento";
-        }
-        else if (ingrediente==2){
-            cout<<"Los ingredientes que tiene tu pizza vegetariana son: mozzarela, tomate y tofu";
-        }
-        else{
-            cout<<"Opcion invalida";
-        }
-        break;
-    case 2 :
-        cout<<"Elige un ingrediente de los siguientes \n";
-        cout<<"1:Peperoni \t 2:Jamon \t 3:Salmon \n";
-        cin>>ingrediente;
-        if (ingrediente==1){
-            cout<<"Los ingredientes que tiene tu pizza no vegetariana son: mozzarela, tomate y peperoni";
-        }
-        else if (ingrediente==2){
-            cout<<"Los ingredientes que tiene tu pizza no vegetariana son: mozzarela, tomate y jamon";
-        }
-        else if (ingrediente==3){
-            cout<<"Los ingredientes que tiene tu pizza no vegetariana son: mozzarela, tomate y salmon";
-        }
-        else{
-            cout<<"Opcion invalida";
-        }
-        break;
-    default:
-        cout<<"Opcion no valida";
-        break;
-    }
-    return 0;
-}
-````
-![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Ejercicio%204%20U2.png)   
-
----
-**Temperaturas**  
-````
-#include <iostream>
-using namespace std;
-int main(){
-    int maximo =0;
-    int minimo=0;
-    int promedio=0;
-    int numero =0;
-    int i=0;
-    cout<<"Promedio y valor maximo y minimo de las temperaturas \n";
-    for (i = 0; i < 6; i++)
-    {
-        cout<<"Ingresa una temperatura: ";
-        cin>>numero;
-        if (i==0 || numero > maximo){
-            maximo=numero;
-        }
-        if (i==0 || numero<minimo ){
-            minimo=numero;
-        }
-        promedio=promedio +numero;
-    }
-    promedio=promedio/6;
-    cout<<"El promedio de las temperaturas es: "<<promedio<<endl;
-    cout<<"El valor maximo es: "<<maximo<<endl;
-    cout<<"El valor minimo es: "<<minimo<<endl;
-    return 0;
-
-}
-```` 
-![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Ejercicio%205%20U2.png)  
-
----
-**Precios**  
-````
-#include <iostream>
-using namespace std;
-int main(){
-    cout<<"Total de la compra \n";
-    int cantidad=1;
-    int total=0;
-    int precio;
-    do{
-        cout<<"Ingresa la cantidad de productos: ";
-        cin>>cantidad;
-        if (cantidad>0)
-        {
-            cout<<"Ingresa el precio del articulo: ";
-            cin>>precio;
-            total=total+(cantidad*precio);
-        }
-    }while(cantidad != 0);
-    cout<<"El total de la compra es de $"<<total;
-    return 0;
-}
-````
-![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Ejercicio%206%20U2.png)  
-
----
-**BinarioADecimal**  
-````
-#include <iostream>
-#include <string.h>
 #include <math.h>
 using namespace std;
-int main(){
-    char binario[30]="";
-    int decimal=0;
-    int numero=0;
-    int contador, i;
-    cout<<"Convertir numeros de binario a decimal \n";
-    cout<<"Ingresa un numero en binario: ";
-    cin>>binario;
-    contador=strlen(binario);
-    for (int i = 1; i <= contador; i++)
+ 
+ double media(double x[],int n){
+    double media=0;
+    for (int i = 0; i < n; i++)
     {
-        if (binario[i-1]=='1')
+        media=media+x[i];
+    }
+    media=media/n;
+    return media;
+ }
+
+ double desviacion(double x[], int n){
+   double me= media(x,n);
+   double des=0;
+   for (int i = 0; i < n; i++)
+   {
+      des=des+pow(x[i]-me,2);
+   }
+   des=sqrt(des/n);
+   return des;
+ }
+
+ int main(){
+    double numeros[]={600,470,170,430,300};
+    int n;
+    n=sizeof(numeros)/8;
+    cout<<"Media: "<<media(numeros,n)<<endl;
+    cout<<"Desviacion estandar: "<<desviacion(numeros,n);
+    return 0;
+ }
+````
+![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Ejercicio%204%20U3.png)   
+
+---
+**Desgloce de moneda**  
+````
+#include<iostream>
+using namespace std;
+int main(){
+    int dinero =8358, i=0;
+    int cambio[10]={1000,500,200,100,50,20,10,5,2,1};
+    while (dinero>0)
+    {
+        if (dinero>=cambio[i])
         {
-            decimal=pow(2,contador-i);
-            numero=numero +decimal;
+            cout<<dinero/cambio[i]<< " billetes de  " <<cambio[i]<<endl;
+            dinero=dinero%cambio[i];
         }
-        
+        i++;
+    }
+    return 0;
+}
+```` 
+![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Ejercicio%205%20U3.png)  
+
+---
+**Numeros Romanos**  
+````
+#include <iostream>
+using namespace std;
+
+int main(){
+    int n=2022;
+    int v;
+    int romanos[]={1000,900,500,400,100,90,50,40,10,9,5,4,1};
+    string NR[]={"M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I"};
+    string numero="";
+    int i=0;
+    while(n>0)
+    {
+        if (n>=romanos[i])
+        {
+            v=n/romanos[i];
+            n=n%romanos[i];
+            for (int j = 0; j < v; j++)
+            {
+                numero=numero+NR[i];
+            }
+        }
+        i++;
     }
     cout<<numero;
-    return 0; 
+    return 0;
+}
+````
+![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Ejercicio%206%20U3.png)  
+
+---
+**RFC**  
+````
+#include <iostream>
+#include <cstring>
+using namespace std;
+
+int main(){
+    string nombre="Carlos";
+    string AP="Esparza";
+    string AM="Lopez";
+    string fe="17/11/2022";
+    string rfc="";
+    int v=nombre.length(); 
+    int p=0;
+    AP[0]=tolower(AP[0]);
+    
+    for (int i = 0; i < v && p<2; i++)
+    {
+        if (AP[i]=='a' || AP[i]=='e' || AP[i]=='i' || AP[i]=='o' || AP[i]=='u' )
+        {
+            rfc=rfc+AP[i];
+            p++;
+        }  
+    }
+    AP[0]=toupper(AP[0]);
+
+    int d1=fe.find_last_of("/");
+    int d2=fe.find("/");
+    rfc=rfc+AM[0]+nombre[0]+fe.substr(d1+1,4)+fe.substr(d2+1,2)+fe.substr(0,2);
+    
+    v=rfc.length();
+    for (int i = 0; i < v; i++)
+    {
+        rfc[i]=toupper(rfc[i]);
+    }
+    cout<<nombre<<" RFC: "<<rfc;
+    return 0;
 }
 ````  
-![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Ejercicio%207%20U2.png)  
+![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Ejercicio%207%20U3.png)  
+
+---
+**Ordenar Vector**  
+````
+#include <iostream>
+using namespace std;
+
+void Ordenar(int x[],int v){
+    int m,s,c;
+    do{
+        c=0;
+        for (int i = 0; i < v; i++)
+        {
+            s=i+1;
+            if (x[i]>x[s])
+            {
+                m=x[s]; x[s]=x[i]; x[i]=m;
+                c++;
+            }   
+        }
+        
+    } while(c>0);
+}
+
+int main(){
+    int c[]={9,8,7,6,5,4,3,2,1,0};
+    int n=sizeof(c)/4;
+    Ordenar(c,n);
+    for (int i = 0; i < n; i++)
+    {
+        cout<<c[i]<<endl;
+    }
+    return 0;
+}
+````  
+![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Ejercicio%208%20U3.png)  
+
+---
+**Ordenar Vector**  
+````
+#include <iostream>
+using namespace std;
+
+double factorial(int numero){
+    if (numero == 1){
+        return 1;
+    }else{
+        return numero*factorial(numero-1);
+    }
+}
+
+int main(){
+    int n=6, f;
+    f=factorial(n);
+    cout<<"El factorial de "<<n<<" es "<<f;
+}
+````  
+![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Ejercicio%209%20U3.png) 
