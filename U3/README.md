@@ -254,6 +254,8 @@ int main(){
 
 ---
 **Ordenar Vector**  
+
+Para la realización de este programa se baso en el metodo de acomodación de burbuja, que en simples palabras es la comparación de 2 valores consecutivos y su intercambio en caso de ser necesario, el programa termina cuando detecta que todos los numeros ya estan ordenados.
 ````
 #include <iostream>
 using namespace std;
@@ -289,7 +291,7 @@ int main(){
 ![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Ejercicio%208%20U3.png)  
 
 ---
-**Ordenar Vector**  
+**Función Recursiva**  
 ````
 #include <iostream>
 using namespace std;
