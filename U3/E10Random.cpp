@@ -47,7 +47,7 @@ int main(){
    for (int i = 0; i < vuel; i++)
    {
         do{
-            ca=0+rand()%(10);
+            ca=0+rand()%(11);
             cal[i]=ca;
             ve=verificar(cal,i);
         }while(ve!=0);
@@ -56,6 +56,5 @@ int main(){
    {
         cout<<cal[i]<<"\t";
    }
-   
     return 0;
 }
