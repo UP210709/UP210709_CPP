@@ -1,9 +1,9 @@
-# Codigo de los programas dentro de esta carpeta  
+# Program codes in this folder  
 ![MadeInAbyss](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/made.jpg) 
 
 ---
 ---
-**Bisección**  
+**Bisection**  
 ````
 #include <iostream>
 #include <cmath>
@@ -42,7 +42,7 @@ int main(){
 ![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Ejercicio%201%20U3.png)  
 
 ---
-**Año Bisiesto**  
+**Leap Year**  
 ````
 #include <iostream>
 using namespace std;
@@ -68,7 +68,7 @@ return 0;
 ![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Ejercicio%202%20U3.png)    
 
 ---
-**Coseno**  
+**Cosine**  
 ````
 #include <iostream>
 #include <math.h>
@@ -118,7 +118,7 @@ int main(){
 ![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Ejercicio%203%20U3.png)  
 
 ---
-**Desviación Estandar**  
+**Standard deviation**  
 ````
 #include <iostream>
 #include <math.h>
@@ -157,7 +157,7 @@ using namespace std;
 ![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Ejercicio%204%20U3.png)   
 
 ---
-**Desgloce de moneda**  
+**Money**  
 ````
 #include<iostream>
 using namespace std;
@@ -179,7 +179,7 @@ int main(){
 ![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Ejercicio%205%20U3.png)  
 
 ---
-**Numeros Romanos**  
+**Roman Numbers**  
 ````
 #include <iostream>
 using namespace std;
@@ -225,9 +225,9 @@ int main(){
     string rfc="";
     int v=nombre.length(); 
     int p=0;
-    AP[0]=tolower(AP[0]);
     
-    for (int i = 0; i < v && p<2; i++)
+    rfc=rfc+AP[0];
+    for (int i = 1; i < v && p<1; i++)
     {
         if (AP[i]=='a' || AP[i]=='e' || AP[i]=='i' || AP[i]=='o' || AP[i]=='u' )
         {
@@ -235,7 +235,6 @@ int main(){
             p++;
         }  
     }
-    AP[0]=toupper(AP[0]);
 
     int d1=fe.find_last_of("/");
     int d2=fe.find("/");
@@ -253,9 +252,9 @@ int main(){
 ![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Ejercicio%207%20U3.png)  
 
 ---
-**Ordenar Vector**  
+**Organize array**  
 
-Para la realización de este programa se baso en el metodo de acomodación de burbuja, que en simples palabras es la comparación de 2 valores consecutivos y su intercambio en caso de ser necesario, el programa termina cuando detecta que todos los numeros ya estan ordenados.
+For this program I used the bubble sort malgorithm, this algorithm checks the numbers and swaps them if they are not int the correct order for this it compares two adjacent numbers. It is not the best or fastest method but is one easy to use.
 ````
 #include <iostream>
 using namespace std;
@@ -291,7 +290,7 @@ int main(){
 ![Ejemplo](https://github.com/UP210709/UP210709_CPP/blob/main/U1/Imagenes/Ejercicio%208%20U3.png)  
 
 ---
-**Función Recursiva**  
+**Recursive function**  
 ````
 #include <iostream>
 using namespace std;

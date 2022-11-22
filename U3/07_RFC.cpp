@@ -10,9 +10,9 @@ int main(){
     string rfc="";
     int v=nombre.length(); 
     int p=0;
-    AP[0]=tolower(AP[0]);
     
-    for (int i = 0; i < v && p<2; i++)
+    rfc=rfc+AP[0];
+    for (int i = 1; i < v && p<1; i++)
     {
         if (AP[i]=='a' || AP[i]=='e' || AP[i]=='i' || AP[i]=='o' || AP[i]=='u' )
         {
@@ -20,7 +20,6 @@ int main(){
             p++;
         }  
     }
-    AP[0]=toupper(AP[0]);
 
     int d1=fe.find_last_of("/");
     int d2=fe.find("/");
